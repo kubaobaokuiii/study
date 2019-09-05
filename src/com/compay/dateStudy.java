@@ -22,11 +22,20 @@ public class dateStudy {
 //        //打印明天的时间
 //        System.out.println(tomorrow);
 
-        LocalDateTime today = LocalDateTime.now();
+//        LocalDateTime today = LocalDateTime.now();
+//
+//        //minusDays()方法相当于当前时间减去n天，传负值相当于加一天
+//        LocalDateTime tomorrow = today.minusDays(-1);
+//
+//        System.out.println(tomorrow);
 
-        //minusDays()方法相当于当前时间减去n天，传负值相当于加一天
-        LocalDateTime tomorrow = today.minusDays(-1);
+        String str = "guo";
 
-        System.out.println(tomorrow);
+        String strs = str.substring(0,1);
+
+        //String的substring()方法不会修改原字符串内容
+        System.out.println(str);
+
+        System.out.println(strs);
     }
 }
